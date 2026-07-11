@@ -28,7 +28,7 @@
 - High
 - Urgent
 
-## Database Tables
+# Database Tables
 
 ## users
 
@@ -71,3 +71,11 @@
 - status
 - purchase_date
 - notes
+
+# Relationships
+
+- One user can create many tickets
+- One ticket can have many comments
+- One user can write many comments
+- One user can be assigned many devices
+- One admin can be assigned many tickets
