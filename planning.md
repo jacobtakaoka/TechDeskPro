@@ -27,3 +27,47 @@
 - Medium
 - High
 - Urgent
+
+## Database Tables
+
+## users
+
+- id
+- name
+- email
+- password_hash
+- role
+- created_at
+
+## tickets
+
+- id
+- title
+- description
+- category
+- priority
+- status
+- created_by
+- assigned_to
+- created_at
+- updated_at
+
+## comments
+
+- id
+- ticket_id
+- user_id
+- comment_text
+- is_internal_note
+- created_at
+
+## devices
+
+- id
+- device_name
+- serial_number
+- device_type
+- assigned_to
+- status
+- purchase_date
+- notes
